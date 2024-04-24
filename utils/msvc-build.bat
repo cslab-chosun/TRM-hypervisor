@@ -30,7 +30,7 @@ if !vcvarsall_path! == "" (
 @rem call MSVC Developer Command Prompt
 call !vcvarsall_path! x86_amd64
 
-msbuild.exe hyperdbg\hyperdbg.sln /t:Build /p:Configuration=Debug;Platform=x64 -m
+msbuild.exe TRMHv\TRMHv.sln /t:Build /p:Configuration=Debug;Platform=x64 -m
 
 if %errorlevel% == 0 (
     echo.

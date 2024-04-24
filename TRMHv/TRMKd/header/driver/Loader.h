@@ -1,0 +1,23 @@
+/**
+ * @file Loader.h
+ * @author Anonymized Author
+ * @brief Routines for perform initial VMM and debugger loads
+ * @details
+ *
+ * @version 0.2
+ * @date 2023-01-15
+ *
+ * @copyright This project is released under the GNU Public License v3.
+ *
+ */
+#pragma once
+
+//////////////////////////////////////////////////
+//		    	 Loader Functions				//
+//////////////////////////////////////////////////
+
+BOOLEAN
+LoaderInitVmmAndDebugger();
+
+VOID
+LoaderUninitializeLogTracer();

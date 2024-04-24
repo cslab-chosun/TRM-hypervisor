@@ -17,8 +17,8 @@ def main():
     #
     print("Creating script engine test environment...")
     
-    from_dir = "..\\hyperdbg\\script-engine\\modules\\script-engine-test\\script-test-cases"
-    to_dir1 = "..\\hyperdbg\\hyperdbg-cli\\script-test-cases"
+    from_dir = "..\\TRMHv\\script-engine\\modules\\script-engine-test\\script-test-cases"
+    to_dir1 = "..\\TRMHv\\TRMHv-cli\\script-test-cases"
     
     if os.path.exists(to_dir1) and os.path.isdir(to_dir1):
         shutil.rmtree(to_dir1)
@@ -30,8 +30,8 @@ def main():
     #
     # copy to build directories
     #
-    to_dir2 = "..\\hyperdbg\\build\\bin\\debug"
-    to_dir3 = "..\\hyperdbg\\build\\bin\\release"
+    to_dir2 = "..\\TRMHv\\build\\bin\\debug"
+    to_dir3 = "..\\TRMHv\\build\\bin\\release"
     
     if os.path.exists(to_dir2) :
         to_dir2 = to_dir2 + "\\script-test-cases"

@@ -1,15 +1,15 @@
-[submodule "hyperdbg/dependencies/ia32-doc"]
-	path = hyperdbg/dependencies/ia32-doc
-	url = https://github.com/HyperDbg/ia32-doc.git
-[submodule "hyperdbg/dependencies/phnt"]
-	path = hyperdbg/dependencies/phnt
-	url = https://github.com/HyperDbg/phnt.git
-[submodule "hyperdbg/script-engine/modules/script-engine-test"]
-	path = hyperdbg/script-engine/modules/script-engine-test
-	url = https://github.com/HyperDbg/script-engine-test
-[submodule "hyperdbg/dependencies/pdbex"]
-	path = hyperdbg/dependencies/pdbex
-	url = https://github.com/HyperDbg/pdbex.git
-[submodule "hyperdbg/dependencies/zydis"]
-	path = hyperdbg/dependencies/zydis
-	url = https://github.com/HyperDbg/zydis.git
+[submodule "TRMHv/dependencies/ia32-doc"]
+	path = TRMHv/dependencies/ia32-doc
+	url = https://github.com/TRMHv/ia32-doc.git
+[submodule "TRMHv/dependencies/phnt"]
+	path = TRMHv/dependencies/phnt
+	url = https://github.com/TRMHv/phnt.git
+[submodule "TRMHv/script-engine/modules/script-engine-test"]
+	path = TRMHv/script-engine/modules/script-engine-test
+	url = https://github.com/TRMHv/script-engine-test
+[submodule "TRMHv/dependencies/pdbex"]
+	path = TRMHv/dependencies/pdbex
+	url = https://github.com/TRMHv/pdbex.git
+[submodule "TRMHv/dependencies/zydis"]
+	path = TRMHv/dependencies/zydis
+	url = https://github.com/TRMHv/zydis.git

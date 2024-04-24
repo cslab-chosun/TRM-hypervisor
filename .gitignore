@@ -359,30 +359,30 @@ MigrationBackup/
 # VS Code
 **/.vscode/
 
-# HyperDbg builds
-/hyperdbg/build/*
+# TRMHv builds
+/TRMHv/build/*
 
-# HyperDbg script engine test cases
-/hyperdbg/hyperdbg-cli/script-test-cases/*
+# TRMHv script engine test cases
+/TRMHv/TRMHv-cli/script-test-cases/*
 
 # Ignore local zydis builds
-/hyperdbg/libraries/zydis/*.lib
-/hyperdbg/libraries/zydis/user/*.lib
-/hyperdbg/libraries/zydis/kernel/*.lib
+/TRMHv/libraries/zydis/*.lib
+/TRMHv/libraries/zydis/user/*.lib
+/TRMHv/libraries/zydis/kernel/*.lib
 
 # Exceptions
-!/hyperdbg/libraries/*
-!/hyperdbg/libraries/pdbex/*
-!/hyperdbg/libraries/DIA/*
-!/hyperdbg/libraries/DIA/x84/*
-!/hyperdbg/libraries/DIA/x64/*
+!/TRMHv/libraries/*
+!/TRMHv/libraries/pdbex/*
+!/TRMHv/libraries/DIA/*
+!/TRMHv/libraries/DIA/x84/*
+!/TRMHv/libraries/DIA/x64/*
 
 # KdSerial Libraries
-!/hyperdbg/libraries/kdserial/*
-!/hyperdbg/libraries/kdserial/x86/*
-!/hyperdbg/libraries/kdserial/x64/*
-!/hyperdbg/libraries/kdserial/arm/*
-!/hyperdbg/libraries/kdserial/arm64/*
+!/TRMHv/libraries/kdserial/*
+!/TRMHv/libraries/kdserial/x86/*
+!/TRMHv/libraries/kdserial/x64/*
+!/TRMHv/libraries/kdserial/arm/*
+!/TRMHv/libraries/kdserial/arm64/*
 
 
 # Code review tools
